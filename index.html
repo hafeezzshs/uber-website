@@ -13,20 +13,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav
-      style="background: yellow; padding: 1rem 4rem; display: flex; align-items: center"
-      class="nav-section"
-    >
-      <h1>Uber</h1>
-      <div>
-        <ul style="display: flex; gap: 2rem; list-style: none">
+    <nav class="nav-section">
+      <p><a href="#">Uber</a></p>
+      <div class="nav-links">
+        <ul>
           <li><a href="#">Ride</a></li>
           <li><a href="#">Drive</a></li>
           <li><a href="#">Business</a></li>
           <li><a href="#">Uber Eats</a></li>
-          <select style="text-align: start; padding: 0; width: 5rem" name="about" id="">
-            <option value="">About us</option>
-            <option value="">Our offerings</option>
+          <select name="about" id="">
+            <option>About</option>
+            <option value="our-offerings">Our offerings</option>
             <option value="">How Uber works</option>
             <option value="">Impact</option>
             <option value="">Diversity, equity, and inclusion</option>
@@ -37,6 +34,21 @@
           </select>
         </ul>
       </div>
+
+      <div class="language-change">
+        <div class="lang">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <p>EN</p>
+        </div>
+        <a href="#">Help</a>
+      </div>
+      <button class="btn-login">Log in</button>
+      <button class="btn-signup">Sign up</button>
     </nav>
   </body>
 </html>
