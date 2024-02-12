@@ -4,10 +4,11 @@
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 .nav-section {
+  width: 100%;
   background: #000;
   padding: 1rem 4rem;
   display: flex;
@@ -30,7 +31,7 @@ body {
   gap: 1.8rem;
   list-style: none;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 .nav-links ul li a {
@@ -46,6 +47,7 @@ body {
   border: none;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
 }
 
 .language-change {
@@ -55,10 +57,12 @@ body {
   color: #fff;
   cursor: pointer;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .language-change a {
   font-size: 14px;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
 }
@@ -86,4 +90,49 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 480px) {
+  .nav-links ul {
+    display: none;
+  }
+  .language-change {
+    display: none;
+  }
+  .nav-section {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links ul {
+    display: none;
+  }
+  .language-change {
+    display: none;
+  }
+  .nav-section {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-links ul {
+    display: none;
+  }
+  .language-change {
+    display: none;
+  }
+  .nav-section {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
 }
