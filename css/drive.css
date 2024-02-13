@@ -1,0 +1,65 @@
+.drive-section {
+  background-color: #fff;
+}
+
+.drive-content-img {
+  margin: 0 4rem;
+  padding: 4rem 0;
+  display: flex;
+}
+
+.drive-img {
+  width: 550px;
+  padding-right: 8.2rem;
+}
+
+.drive-content {
+  padding: 5.4rem 0;
+}
+
+.drive-content-p1 {
+  color: #000;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.drive-content-p2 {
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 2.3rem;
+  padding-bottom: 2.3rem;
+  line-height: 1.3rem;
+}
+
+.drive-btn {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.drive-btn a button {
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 1rem 1.9rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.drive-sign-in a {
+  text-decoration: none;
+}
+
+.drive-sign-in a p {
+  color: #000;
+  font-size: 16px;
+  padding-top: 1rem;
+  padding-bottom: 4px;
+}
+
+.underline {
+  border: 1px rgb(209, 205, 205) solid;
+}

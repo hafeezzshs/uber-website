@@ -28,11 +28,13 @@
   padding-top: 2.3rem;
   padding-bottom: 1rem;
 }
+
 .input-cls {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
+
 .location-cls {
   position: relative;
 }
@@ -45,12 +47,14 @@
   border-radius: 10px;
   border: none;
 }
+
 .dot-img {
   position: absolute;
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
 }
+
 .navigate-btn {
   cursor: pointer;
   position: absolute;
@@ -58,6 +62,7 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
 .destination-cls {
   position: relative;
 }
@@ -70,12 +75,14 @@
   border-radius: 10px;
   border: none;
 }
+
 .square-img {
   position: absolute;
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
 }
+
 .connecting-line {
   padding-bottom: 1rem;
   position: absolute;
@@ -84,6 +91,7 @@
   top: 80%;
   left: 4.9rem;
 }
+
 .header-prices {
   padding-top: 1rem;
 }
@@ -100,6 +108,7 @@
 .header-prices button:hover {
   background: #e6e6e6;
 }
+
 .header-img img {
   width: 550px;
   height: 109vh;
