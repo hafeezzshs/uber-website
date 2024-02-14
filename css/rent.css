@@ -1,0 +1,31 @@
+.rent-section {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.rent-content-img {
+  margin: 0 4rem;
+  display: flex;
+  gap: 8.3rem;
+}
+
+.rent-img img {
+  width: 550px;
+  height: 550px;
+}
+
+.rent-content {
+  padding: 9.8rem 0;
+}
+
+.rent-content-p1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.rent-content-p2 {
+  font-size: 17px;
+  font-weight: normal;
+  padding: 1.5rem 0;
+  line-height: 25px;
+}
