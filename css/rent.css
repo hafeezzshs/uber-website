@@ -29,3 +29,33 @@
   padding: 1.5rem 0;
   line-height: 25px;
 }
+
+@media only screen and (max-width: 480px) {
+  .rent-section {
+    padding: 2rem 0;
+  }
+  .rent-content-img {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .rent-img img {
+    width: 416px;
+    height: 416px;
+  }
+  .rent-content {
+    padding: 0;
+    order: -1;
+  }
+  .rent-content-p1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .rent-content-p2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 1.5rem 0;
+    line-height: 25px;
+  }
+}
