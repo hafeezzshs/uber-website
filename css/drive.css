@@ -53,6 +53,10 @@
   cursor: pointer;
 }
 
+.drive-btn a button:hover {
+  background: #4d4d4d;
+}
+
 .drive-sign-in a {
   text-decoration: none;
 }

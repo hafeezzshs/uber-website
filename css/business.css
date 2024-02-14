@@ -1,0 +1,33 @@
+.business-section {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.business-content-img {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.business-content {
+  padding: 6rem 0;
+}
+
+.business-content-p1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.business-content-p2 {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 2rem 0;
+  color: #4d4d4d;
+  line-height: 25px;
+}
+
+.business-img img {
+  width: 550px;
+  height: 550px;
+}
