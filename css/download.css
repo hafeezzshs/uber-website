@@ -1,0 +1,63 @@
+.download-section {
+  background-color: #f4eeee9d;
+  padding-top: 3.3rem;
+  padding-bottom: 4rem;
+}
+
+.download-content-qr {
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.download-content {
+  padding-bottom: 2rem;
+}
+
+.download-content-p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.download-qr-uber {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.download-qr-uber-a {
+  text-decoration: none;
+  color: #000;
+}
+
+.download-uber {
+  background-color: #fff;
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 2rem;
+}
+
+.download-uber-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.download-content-qr-p {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download-content-qr-p1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.download-content-qr-p2 {
+  font-size: 16px;
+}
+
+.rg-arrow {
+  padding: 4rem 0.25rem;
+}
