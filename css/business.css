@@ -19,6 +19,10 @@
   line-height: 64px;
 }
 
+.business-content-p1 br:nth-of-type(2) {
+  display: none;
+}
+
 .business-content-p2 {
   font-size: 16px;
   font-weight: normal;
@@ -27,7 +31,40 @@
   line-height: 25px;
 }
 
+.business-content-p2 br:nth-of-type(1) {
+  display: none;
+}
+
 .business-img img {
   width: 550px;
   height: 550px;
+}
+
+@media only screen and (max-width: 480px) {
+  .business-section {
+    padding: 3rem 0;
+  }
+  .business-content-img {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .business-content {
+    padding: 0;
+  }
+  .business-content-p1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .business-content-p1 br:nth-of-type(odd) {
+    display: none;
+  }
+  .business-content-p2 br:nth-of-type(2) {
+    display: none;
+  }
+  .business-img img {
+    width: 416px;
+    height: 416px;
+  }
 }
