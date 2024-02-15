@@ -1,0 +1,132 @@
+.footer-section {
+  background-color: #000;
+  padding: 6.5rem 0;
+}
+
+.footer-content {
+  margin: 0 4rem;
+}
+
+.footer-content-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  padding-bottom: 3rem;
+}
+
+.footer-content-main .a1 {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content-main .a2 {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-content-lists {
+  display: flex;
+  gap: 10rem;
+  padding: 2.5rem 0;
+  color: #fff;
+}
+
+.footer-list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-list-content p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-list-content a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-list-content a:hover {
+  color: #ffffffab;
+}
+
+.footer-social-media {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.footer-media-icons {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-media-icons img {
+  width: 16px;
+  height: 16px;
+}
+
+.icons {
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: #333333;
+}
+
+.footer-btns button {
+  color: #fff;
+  display: flex;
+  gap: 8px;
+  padding: 6px 1rem;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.footer-btns button:hover {
+  background-color: #333333;
+}
+
+.footer-download-apps {
+  padding: 2rem 0;
+}
+
+.footer-download-apps a img {
+  width: 8rem;
+}
+
+.footer-copywrite {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footer-copywrite p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-rules {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-rules a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-rules a:hover {
+  color: #ffffffab;
+}
