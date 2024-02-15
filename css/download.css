@@ -61,3 +61,51 @@
 .rg-arrow {
   padding: 4rem 0.25rem;
 }
+
+.download-qr-uber-a .rg-arrow {
+  position: relative;
+  left: 0;
+  transition: left 0.5s ease;
+}
+
+.download-qr-uber-a:hover .rg-arrow {
+  left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .download-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .download-content-qr {
+    margin: 0 2rem;
+  }
+  .download-content {
+    padding-bottom: 2rem;
+  }
+  .download-content-p {
+    font-size: 28px;
+  }
+  .download-qr-uber {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .download-uber {
+    padding: 1rem 1rem;
+  }
+  .download-uber-img img {
+    width: 84px;
+    height: 84px;
+  }
+  .download-content-qr-p {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rg-arrow {
+    padding: 2rem 0.25rem;
+  }
+}
