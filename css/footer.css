@@ -81,6 +81,12 @@
   background-color: #333333;
 }
 
+.footer-btns {
+  display: flex;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
 .footer-btns button {
   color: #fff;
   display: flex;
@@ -129,4 +135,39 @@
 
 .footer-rules a:hover {
   color: #ffffffab;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-section {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+  }
+  .footer-content {
+    margin: 0 2rem;
+  }
+  .footer-content-main .a1 {
+    font-size: 20px;
+  }
+  .footer-content-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer-media-icons {
+    gap: 3rem;
+  }
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-copywrite {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
 }
