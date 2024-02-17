@@ -91,37 +91,6 @@ body {
   font-weight: 300;
 }
 
-@media only screen and (max-width: 1200px) {
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav-links ul {
-    display: none;
-  }
-  .language-change {
-    display: none;
-  }
-  .nav-section {
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .nav-links ul {
-    display: none;
-  }
-  .language-change {
-    display: none;
-  }
-  .nav-section {
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   .nav-links ul {
     display: none;
